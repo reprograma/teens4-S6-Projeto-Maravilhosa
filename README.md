@@ -1,9 +1,8 @@
 
-# Turma Teens 2  Semana 6 Front-end 💜
+# Turma Teens 4  Semana 6 Front-end 💜
 ## Aula de Projeto Final  :octocat:
 
 ### link do projeto 
-[Página principal M de maravilhosas](https://reprograma-teens2-maravilhosas.netlify.app/)
 
 
 ### Links bacanas se bater uma dúvida
@@ -14,33 +13,30 @@
 * [Guia como subir o código Netlify(apartir do minuto 6 do vídeo](https://www.youtube.com/watch?v=wpbo183GXIA)
 * [Introdução ao DOM ](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
 
-### Objetivos da aula (Domingo e Quarta)  :metal:
+### Objetivos da aula (Sábado)  :metal:
 **Antes de tudo momentos de paz e relaxamento, 15 minutinhos de tranquilidade **
-1. Revisão rápida HTML
-2. Revisão rápida CSS
-3. Revisão rápida Manipulando o DOM 
-4. Explicando sobre o projeto Final 
-5. Explicando passo a passo do projeto 
-6. Escolhendo a maravilhosa e colocando foto até quarta feira no Drive com nome da Maravilhosa em baixo
-7. Baixando o projeto e pegando base para suporte
-8. Tirar dúvidas e Subir o projeto Netlify 
-9. COLOCAR LINK NA PLANILHA PRA TIA RAI DEIXAR BONITO NA HOME DAS MARAVILHOSAS
+0. Baixando o projeto e pegando base para suporte
+1. Explicando sobre o projeto Final 
+2. Explicando passo a passo do projeto 
+3. Criando juntas! barra de navegação e rodapé
+4. Revisão rápida HTML CSS e DOM (Javascript)
+-------INTERVALO--------
+5. Escolhendo a maravilhosa e colocando foto até TERÇA-FEIRA no Drive com nome da aluna e da Maravilhosa em baixo
+6. Criando seu projeto! =D 
+7. Tirar dúvidas e Subir o projeto Netlify até quarta pela manhã 
+9. COLOCAR LINK NA PLANILHA PRA LIANA DEIXAR BONITO NA HOME DAS MARAVILHOSAS! =D
 
 ### Para Casa - passo a passo da atividade  :rocket:
 
 1. Pegar Base do projeto 
 1. Deixar bem belo com CSS e flex Box 
 3. Implementar com JS e DOM a seção de recados para a maravilhosa  
-4. A seção recado é obrigatória mas fiquem tranquilas que todo mundo se ajudando vai dar certo!
-5. Criar a sessão que fala sobre a autora(Deva sensacional que fez o site, V O C Ê <3 ) 
-6. Tirar as redes sociais  da reprograma e linkar as redes socias da sua pessoa no Footer
-8. Ajustar e atualizar a sessão que fala sobre a maravilhosa com as informações dela
-9. Subir o projeto no Netlify e colocar na planilha e no classroom
-10. Atualizar o projeto pelo deploy do netlify caso precise e entrega-lo até sexta 
-11. BRILHAR E APRESENTAR O PROJETO NO SÁBADOOOO :sparkles:
-
-  :rocket: Desafio JS: Apenas permitir a submissão do formulário se os inputs estiverem preenchidos.
-Caso o usuário tente submeter a postagem com o nome e a mensagem vazias colocar um alert pedindo pra ele preencher. 
+4. A seção recado não é obrigatória! Mas ficaria bem legal com ela. Se precisarem de apoio para colocá-la, fiquem tranquilas que todo mundo se ajudando, vai dar certo!
+5. Criar a sessão que fala sobre a autora(Deva sensacional que fez o site, V O C Ê <3 ) -- ps. usaremos avatares!!! 
+6. Ajustar e atualizar a sessão que fala sobre a maravilhosa com as informações dela
+7. Subir o projeto no Netlify e colocar na planilha e no classroom
+8. Atualizar o projeto pelo deploy do netlify caso precise e entrega-lo até quarta de manhã 
+9. BRILHAR E APRESENTAR O PROJETO NA QUARTA!!! :sparkles:
 
 
 ### Links Importantes das entregas :rocket:
