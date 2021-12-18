@@ -40,5 +40,5 @@
 
 
 ### Links Importantes das entregas :rocket:
-* [Drive com Planilha com link do netlify e quem entregou](https://docs.google.com/spreadsheets/d/1Pjr4L9q57IRa9XqiyknwaXG9nO_SDWCkfVBO3zaTLak/edit?usp=sharing)
-* [Drive com a as fotos de cada maravilhosa e o nome dela](https://drive.google.com/drive/folders/11NJKENeMgT65bnw3aEJWxQyPnMP7yRLt?usp=sharing)
+* [Drive com Planilha com link do netlify e quem entregou](https://docs.google.com/spreadsheets/d/1li0PXUW5CbFTRbyPU_LlCiruhy0W4205XQ4G8ks2TV8/edit?usp=sharing)
+* [Drive com a as fotos de cada maravilhosa e o nome dela](https://drive.google.com/drive/folders/1EyRL5RIk0O1F6_PG4e5fqkNWkaclIvJ8?usp=sharing)
