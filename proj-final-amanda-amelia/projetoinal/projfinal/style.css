@@ -1,0 +1,443 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 1px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+
+.navegacao{background-color: rgb(109, 71, 114);
+padding: 15px;
+display: flex;
+justify-content: center;
+box-shadow: 10px 0 10px rgba(0,0,0,.2);
+position: sticky;
+}
+
+
+
+
+/* HEADER */
+.header {
+  background-image: url();
+  background-size: cover;
+    min-height: 80vh;
+    height: 500px;
+  }
+
+.header-img-maravilhosa{ width: 90%;
+  box-shadow: 10px 0 10px rgb(75, 129, 78);
+  height: 380px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.container-header{ width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 30px;}
+
+
+h1{
+display: block;
+justify-content: center;
+font-weight:bold;
+font-family: 'Imperial Script', cursive;
+text-align:left;
+text-transform:inherit;
+margin-left: 25px;
+font-size: 4.3rem;
+text-align: center;
+margin-top: 20px;
+
+}
+
+/* --- BOTAO --- */
+.header-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background: rgb(100, 44, 107);
+  border-radius: 5px;
+  color: aliceblue;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+  font-family: 'Roboto Mono', ;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+
+.header-buttom:hover{
+  background-color:rgb(243, 184, 184) ;
+  color:rgb(109, 71, 114);
+  transition: background-color .5s;
+}
+
+/*********** HEADER  *********/
+
+
+
+/* SECAO Maravilhosa */
+h2{font-family: 'Montagu Slab', serif;
+color:rgb(109, 71, 114);
+font-size:50px;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+font-style: italic;
+padding-top: 40px;
+margin-bottom: 20px;
+}
+
+h3{font-family: 'Montagu Slab', serif;
+padding-bottom:10px;
+font-size: 2rem;
+color:rgb(109, 71, 114);
+text-align: center;
+margin-top: 20px;
+}
+
+.sua-historia_texto{padding-bottom:10px;
+font-size: 20px;
+text-align:center ;}
+
+.container-historia-maravilhosa{ display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.container-historia-maravilhosa2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+  }
+
+  .sua-historia_texto{margin:15px;
+  font-size: 20px;
+color: rgb(59, 54, 54);
+font-weight: bold}
+
+  .img-mara-historia{margin-top: 10px;
+    border: solid 1px  rgb(100, 50, 98); ;
+  display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+height: 80px;;
+margin: 15px;
+max-width: 82px;
+margin: auto;}
+
+.texto-historia{ width: 100%;
+  margin-left: 40px;}
+
+.mamis-maravilhosa{background-color: rgb(75, 109, 89);}
+
+
+/* Fonte dos textos*/
+.sua-historia_texto{font-family: 'Atkinson Hyperlegible', sans-serif;}
+.texto-autora{font-family: 'Atkinson Hyperlegible', sans-serif;}
+.paragrafo-2{font-family: 'Atkinson Hyperlegible', sans-serif;
+display: inline-flex;
+align-items: flex-end;}
+
+
+/* AUTORA */
+.autoraBia{background-color:peachpuff;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+.autora_sobre{display: flex;
+}
+
+.sobre-titulo{ text-align: center;
+  color: rgb(91, 62, 100);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 30px;
+  font-family: 'Lobster Two', cursive;}
+
+ .sobre-autora-titulo{  text-align: center;
+  color:  rgb(78, 53, 95);
+  font-size: 65px;
+  font-weight: bold;
+  padding: 20px;
+  font-family: 'Imperial Script', cursive;}
+
+.euzinha-desenho{width: 20%;
+  border-radius: 50%;
+  margin-right: 35px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: sticky;}
+
+  h5{font-family: 'Roboto Slab', serif;
+    padding-bottom:10px;
+    font-size: 2rem;
+    color:rgb(84, 122, 103);}
+
+  .texto-autora{margin:20px;
+    color: rgb(43, 38, 38);
+    font-family:'Roboto Slab', serif;
+    text-align: justify;
+    font-size: 2.0rem;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+/* SECAO Recado */
+.mensagem-para-maravilhosa{display:flex;
+background-color: white;}
+
+.icon-cute-mensagem{width: 30%;
+ margin-left: 250px;}
+
+
+ h4{font-family: 'Roboto Slab', serif;
+color: rgb(80, 119, 101);
+text-align: left;
+font-size:30px;}
+
+.texto__input:hover,.nome__inout:hover
+{background-color: rgb(75, 129, 78);
+  height: 380px;
+  border-radius: 6px;
+}
+
+#textoInput{
+    width: 100%;
+    height: 100px;   
+    margin:5px; 
+}
+
+#nomeInput{
+    width: 100%;
+    height: 30px;
+}
+
+.form__exemplo {
+  display: flex;
+  flex-direction: column;
+}
+.texto__button {   
+    background-color: rgb(75, 129, 78);
+    height: 380px;;
+    color: #ffffff;
+    border: 0;
+    width: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 21px;
+    height: 40px;
+    border-radius:10px;
+    border: solid 2px #462769; 
+}
+
+.texto__button:hover {
+    background-color: rgb(75, 129, 78);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.texto-caixa{font-size:150%;
+padding: 20px;}
+
+
+
+
+/* FOOTER */
+footer{
+  color: rgb(250, 250, 250)
+}
+.footer-box1{
+  background-color: rgb(75, 129, 78);
+  padding: 35px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.footer-box1--textos{
+  text-align: center;
+
+}
+
+.footer-box1--home:hover, .footer-box1--conheca:hover {color: rgb(78, 49, 107);
+  font-weight: bold;
+}
+
+.icone-redes-sociais, .footer-box1--home, .footer-box1--conheca {
+  transition: 0.4s;
+}
+
+.icone-redes-sociais:hover{
+  background-color: rgb(105, 66, 131);
+  border-radius: 15px;
+}
+
+.footer-box2{
+  background-color: #6d4772;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* MEDIA QUERY */
+
+
+
+@media screen and (max-width:496px) {
+  /*MEDIA - FOOTER*/
+   .footer-box1 > div  {
+      margin-bottom: 30px;
+   }
+}
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media(max-width: 760px){
+  .container-header{
+      flex-direction: column;
+      
+  }
+
+  .header-titulo{
+      width: 90%;
+      margin: 5px 10px 5px 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .mamis-maravilhosa{
+      margin-top: 200px;
+      height: 100%;
+      padding-bottom: 25px;
+  }
+
+  .container-historia-maravilhosaa{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+      
+  }
+
+  .img-mara-historia{
+      width: 90%;
+      margin-bottom: 30px;
+  }
+
+  .mensagem-para-maravilhosa{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+ .formulario{
+     margin-left: 10px;
+     padding: 20px;
+ }
+
+  
+  #textoInput{
+      width: 80%;
+      height: 100px;    
+  }
+  
+  #nomeInput{
+      width: 80%;
+      height: 30px;
+  }
+
+  .texto__button{
+      width: 30%;
+  }
+
+  .euzinha-desenho{flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  height: 400%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  }
+
+  .texto__button {   
+    width: 50%;
+    font-weight: bold;
+    height: 40px;
+
+}
+.texto-autora{font-size:px;}
+
+
+}
+
+@media(max-width: 500px){
+  .header-img-maravilhosa{
+      height: 220px;        
+  }
+
+  .mamis-maravilhosa{
+      margin-top: 100px;
+      
+  }
+
+  .autora_sobre{
+    flex-direction: column;
+        align-items: center;
+  }
+ 
+  .euzinha-desenho{width: 60%;
+    margin: 35px;}
+
+  h5{padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+}
+
