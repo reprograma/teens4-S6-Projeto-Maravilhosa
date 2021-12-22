@@ -1,0 +1,597 @@
+/* RESET CSS  ----------------------------------------------------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 1px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+
+/* NAVBAR */
+.navegacao {
+  background-color: #c083b9;
+  padding: 10px;
+  display: flex; 
+  justify-content: center;
+  box-shadow: 10px 0 10px rgba(0,0,0,.2);
+  position: sticky;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* HEADER  -------------------------------------------------------------------------------------------------------------*/
+
+header {
+  background-image: url(https://mundohacker.net.br/wp-content/uploads/2019/02/programadora.mh_.png);
+  background-repeat: repeat;
+  min-height: 80vh;
+  color: #ffffff;
+}
+
+.container_header {
+  height: 100%;
+  display: flex;
+  padding: 30px;
+  margin-left: 70px;
+}
+
+.header_título {
+  width: 30%;
+  text-transform: uppercase;
+  margin: 140px 0px 10px 70px;
+  font-size: 20px;
+  color: rgb(249,141,138);
+}
+
+.header_font {
+  font-family: 'Dancing Script', cursiva;
+  transition: all .5s ease 0s;
+}
+
+.header_subtitulo {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+  margin-left: 32px;
+}
+
+.header_mulheres_img {
+  height: 450px;
+  margin-left: 110px;
+}
+
+/* --- BOTAO --- */
+
+.header_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background: rgb(168,200,195);
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/***********   fim do HEADER   *********/
+
+/* SECAO Maravilhosa  --------------------------------------------------------------------------------------------------*/
+
+.maravilhosa {
+  margin: 10px;
+}
+.maravilhosa {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAD8E5;
+  align-items: center;
+  margin: 50px;
+  border: #EA4C89 solid 2px;
+}
+
+.container_maravilhosa {
+  text-align: center;
+  padding: 0 5%;
+}
+
+.maravilhosa_titulo {
+  color: #EA4C89;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.maravilhosa_boxBorder {
+  border: 1px solid #EA4C89;
+  margin: 42px;
+}
+
+.boxBorder_texto {
+  margin: 30px;
+  color: #462755;
+  text-align: center;
+  text-align: justify;
+}
+
+.div_historiaEImg {
+  display: flex;
+}
+
+.div_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.suaHistoria_imagem {
+  width: auto;
+  height: 300px;
+  border-radius: 5%;
+  margin: 20px;
+  border: #EA4C89 solid 2px;
+  margin-left: 50px;
+}
+
+.container_suaHistoria {
+  display: flex;
+  color: #674582;
+  margin-right: 08%;
+}
+
+.suaHistoria_texto {
+  width: 100%;
+  margin-left: 40px;
+  text-align: justify;
+}
+
+.suahistoria_titulo {
+  color: #462755;
+  padding-bottom: 10px;
+}
+
+.suahistoria_paragrafo {
+  padding-bottom: 10px;
+}
+
+/* AUTORA --------------------------------------------------------------------------------------------------------------*/
+
+.autora {
+  background-image: url(https://i.ytimg.com/vi/3YEIYgKC4LM/maxresdefault.jpg);
+  align-items: center;
+  width: 100%;
+  padding: 60px;
+  padding-top: 20px;
+}
+
+.autora_titulo {
+  text-align: center;
+  color: rgb(137, 121, 210);
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 30px;
+}
+
+.autora_sobre {
+  display: flex;
+}
+
+.autora_imagem {
+  width: 18%;
+  height: 230px;
+  border-radius: 50%;
+  margin-right: 35px;
+  opacity: 0.7;
+}
+
+.autora_nome_parágrafo {
+  border: 1px solid #d83737;
+  box-shadow: 3px 2px 5px 4px #d8376b;
+  background-color: rgb(251 251 251);
+  display: block;
+  justify-content: center;
+  color: rgb(92, 91, 91);
+  margin: 25px;
+  margin-bottom: 40px;
+  padding: 20px;
+  margin-top: 19px;
+  border-radius: 5px;
+  transition: all .5s ease 0s;
+  width: 900px;
+}
+
+.nome_autora {
+  color: #cc5f5f;
+  margin-bottom: 3px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.parágrafo_autora {
+  text-align: justify;
+  font-family: "Dancing Script", cursiva;
+  line-height: 25px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* SECAO Recado  -------------------------------------------------------------------------------------------------------*/
+
+.container_recado {
+  background-color: rgb(250, 240, 240);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 280px;
+  padding-bottom: 80px;
+}
+
+.icon {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.form_titulos {
+  width: 500px;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+strong_girlpower {
+  color: #e1e435;
+  font-family: 'Dancing Script', cursiva;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.form_titulos {
+  width: 500px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.form__exemplo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.fieldset {
+  margin-right: 80px;
+  width: 400px;
+  background-color: rgb(234,234,234);
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+
+.form_legend {
+  font-weight: bold;
+  color: #e665d0;
+  font-size: 25px;
+}
+
+legend {
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+.form_componentes {
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+div {
+  display: block;
+}
+
+label {
+  cursor: default;
+}
+
+#textoTextarea {
+  width: 200px;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+textarea {
+  -webkit-writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: nome;
+  font-variant-caps: nome;
+  font-variant-numeric: nome;
+  font-variant-east-asian: nome;
+  font-weight: nome;
+  font-stretch: nome;
+  font-size: nome;
+  font-variant-ligatures: nome;
+  font-variant-caps: nome;
+  font-variant-numeric: nome;
+  font-variant-east-asian: nome;
+  font-weight: nome;
+  font-stretch: nome;
+  font-size: nome;
+  font-family: monospace;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  column-count: initial !important;
+  margin: 0em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding: 2px;
+}
+
+.form_componentes {
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+div {
+  display: block;
+}
+
+label {
+  cursor: default;
+}
+
+div {
+  display: block;
+}
+
+#nomeInput {
+  width: 200px;
+  height: 30px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+input[type="text" i] {
+  padding: 1px 2px;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: nome;
+  font-variant-caps: nome;
+  font-variant-numeric: nome;
+  font-variant-east-asian: nome;
+  font-weight: nome;
+  font-stretch: nome;
+  font-size: nome;
+  font-family: nome;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.texto__form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.texto__button {
+  background-color: #7F479B;
+  color: #ffffff;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 28px;
+  height: 40px;
+  width: 80px;
+  height: 40px;
+  background: rgb(168,200,195);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+button {
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: nome;
+  font-variant-caps: nome;
+  font-variant-numeric: nome;
+  font-variant-east-asian: nome;
+  font-weight: nome;
+  font-stretch: nome;
+  font-size: nome;
+  font-family: nome;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+/* FOOTER  -------------------------------------------------------------------------------------------------------------*/
+
+footer{
+  color: #fff;
+}
+.footer-box1{
+  background-color: #ea4c89;
+  padding: 35px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.footer-box1--textos{
+  text-align: center;
+
+}
+
+.footer-box1--home:hover, .footer-box1--conheca:hover {
+  font-weight: bold;
+}
+
+.icone-redes-sociais, .footer-box1--home, .footer-box1--conheca {
+  transition: 0.4s;
+}
+
+.icone-redes-sociais:hover{
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.footer-box2{
+  background-color: #5b5e5e;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* MEDIA QUERY  --------------------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (max-width:496px) {
+  /*MEDIA - FOOTER*/
+   .footer-box1 > div  {
+      margin-bottom: 30px;
+   }
+}
